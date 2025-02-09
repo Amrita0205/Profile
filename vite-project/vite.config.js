@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
-      input: 'index.html', // Explicitly define the entry point
+      input: './index.html', // Explicitly define the entry point
     },
   },
 });
