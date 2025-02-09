@@ -6,5 +6,8 @@ export default defineConfig({
   root: '.',  // Ensure it's reading from the correct directory
   build: {
     outDir: 'dist',
+    rollupOptions: {
+      input: 'index.html', // Explicitly define the entry point
+    },
   },
 });
